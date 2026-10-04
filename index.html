@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>आकृति यादव | सांदीपनी विद्यालय</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f7ff;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a237e, #3949ab);
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    nav {
+      background: #111b5e;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    .hero {
+      min-height: 420px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+      background: linear-gradient(
+        rgba(25, 40, 120, .75),
+        rgba(25, 40, 120, .75)
+      );
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 25px;
+      background: #ffca28;
+      color: #111;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 55px 8%;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #1a237e;
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,.12);
+    }
+
+    .card h3 {
+      color: #3949ab;
+      margin-bottom: 12px;
+    }
+
+    .about {
+      background: white;
+    }
+
+    .contact {
+      background: #e8eaf6;
+    }
+
+    footer {
+      background: #111b5e;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media(max-width:600px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .hero h2 {
+        font-size: 30px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 7px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🏫 सांदीपनी विद्यालय</h1>
+    <p>ज्ञान • संस्कार • अनुशासन • सफलता</p>
+    <p>वेबसाइट प्रस्तुतकर्ता: <strong>आकृति यादव</strong></p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">होम</a>
+    <a href="#about">विद्यालय</a>
+    <a href="#facilities">सुविधाएँ</a>
+    <a href="#activities">गतिविधियाँ</a>
+    <a href="#contact">संपर्क</a>
+  </nav>
+
+  <!-- Home -->
+  <section class="hero" id="home">
+    <div>
+      <h2>सांदीपनी विद्यालय में आपका स्वागत है</h2>
+      <p>
+        शिक्षा के साथ संस्कार और प्रतिभा का विकास।
+      </p>
+
+      <a href="#about" class="button">
+        और जानें
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>📚 हमारे विद्यालय के बारे में</h2>
+
+    <p>
+      सांदीपनी विद्यालय विद्यार्थियों को गुणवत्तापूर्ण शिक्षा,
+      अनुशासन और संस्कार प्रदान करने के लिए समर्पित है।
+      हमारा उद्देश्य विद्यार्थियों का सर्वांगीण विकास करना है।
+    </p>
+  </section>
+
+  <!-- Facilities -->
+  <section id="facilities">
+    <h2>🏫 विद्यालय की सुविधाएँ</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>📖 पुस्तकालय</h3>
+        <p>ज्ञानवर्धक पुस्तकों का विशाल संग्रह।</p>
+      </div>
+
+      <div class="card">
+        <h3>💻 कंप्यूटर लैब</h3>
+        <p>आधुनिक कंप्यूटर और तकनीकी शिक्षा।</p>
+      </div>
+
+      <div class="card">
+        <h3>🔬 विज्ञान प्रयोगशाला</h3>
+        <p>प्रयोग द्वारा विज्ञान सीखने की सुविधा।</p>
+      </div>
+
+      <div class="card">
+        <h3>⚽ खेल मैदान</h3>
+        <p>खेल एवं शारीरिक विकास के लिए मैदान।</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="about" id="activities">
+    <h2>🎨 विद्यालय की गतिविधियाँ</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🎤 सांस्कृतिक कार्यक्रम</h3>
+        <p>संगीत, नृत्य और सांस्कृतिक कार्यक्रम।</p>
+      </div>
+
+      <div class="card">
+        <h3>🏆 खेल प्रतियोगिता</h3>
+        <p>विभिन्न खेल प्रतियोगिताओं का आयोजन।</p>
+      </div>
+
+      <div class="card">
+        <h3>🧠 क्विज प्रतियोगिता</h3>
+        <p>विद्यार्थियों के ज्ञान और प्रतिभा का विकास।</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>📞 संपर्क</h2>
+
+    <p><strong>विद्यालय:</strong> सांदीपनी विद्यालय</p>
+    <p><strong>प्रस्तुतकर्ता:</strong> आकृति यादव</p>
+    <p><strong>पता:</strong> भारत</p>
+    <p><strong>ईमेल:</strong> school@example.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 सांदीपनी विद्यालय</p>
+    <p>Website Created by आकृति यादव ❤️</p>
+  </footer>
+
+</body>
+</html>
